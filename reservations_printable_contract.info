@@ -1,18 +1,13 @@
 name = CMA Reservations Printable Contract
-
-description = "Adds a printable contract option to Reservation nodes."
-
-core = 7.x
+description = Adds a printable contract option to Reservation nodes.
+package = "Community Media Advanced Reservations"
+version = "7.x-4"
+core = "7.x"
+project = "reservations"
+project_status_url = https://github.com/cm-advanced/cma_reservations_printable_contract
 
 dependencies[] = reservations
-
-configure = admin/config/reservations/contract
-
 files[] = reservations_printable_contract.module
+configure = "admin/config/reservations/contract"
 
 
-package = "Community Media Advanced"
-version = "7.x-3.2"
-core = "7.x"
-project = "reservations_printable_contract"
-project_status_url = https://github.com/cm-advanced/reservations_printable_contract
